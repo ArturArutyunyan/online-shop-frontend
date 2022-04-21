@@ -1,0 +1,54 @@
+.navBar__content {
+  width: 100%;
+  height: 100px;
+  padding: 0 2rem;
+  background-color: rgba(110, 181, 194, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar__title {
+  color:rgba(27, 58, 73, 0.8);
+  text-shadow: 0 0 3px rgba(27, 58, 73, 0.8);
+}
+
+.navBar__title span{
+  color:rgba(128, 22, 3, 0.8);
+  text-shadow: 0 0 3px rgba(128, 22, 3, 0.8);
+}
+
+.navBar__content a{
+  text-decoration: none;
+  color: rgb(252, 252, 243);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navBarLogo {
+  width: 50px;
+  height: auto;
+}
+
+.bagLogo {
+  width: 40px;
+  height: auto;
+}
+
+.bag__content {
+  display: flex;
+  align-items: center;
+}
+
+.bagCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgba(27, 58, 73, 0.8);
+  margin-left: .5rem;
+  box-shadow: 0 0 6px rgba(27, 58, 73, 0.8);
+}
+
